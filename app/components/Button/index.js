@@ -21,7 +21,7 @@ function Button(props) {
     </A>
   );
 
-  // If the Button has a handleRoute prop, we want to render a button
+  // If the Button has a handleRoute prop, we want to render a button on the substance
   if (props.handleRoute) {
     button = (
       <StyledButton onClick={props.handleRoute}>
